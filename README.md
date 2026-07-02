@@ -1,90 +1,72 @@
-# 📊 Netflix Data Analysis (EDA) — Descriptive Analysis
+# 🎬 Netflix Content Analysis
 
-## 🌍 Country Contribution Analysis
+## 📌 Project Overview
 
-The **United States** is the largest contributor to Netflix's content library, accounting for a significant share of both movies and TV shows. While movies are heavily dominated by U.S. productions, TV shows demonstrate relatively greater international representation.
+This project performs an **Exploratory Data Analysis (EDA)** on the Netflix Movies and TV Shows dataset to uncover patterns in the platform's content library. The analysis examines how Netflix's catalog has evolved over time by exploring content distribution, growth trends, release delays, genre popularity, and country-wise contributions.
 
-**Key Statistics**
-- 📌 Highest contributor for Movies: **USA (50.3%)**
-- 📌 Highest contributor for TV Shows: **USA (36.8%)**
+Using Python and data visualization libraries, the project transforms raw data into meaningful insights through descriptive statistics and visual analysis. The objective is to understand Netflix's content strategy, identify trends in content expansion, and explore how different countries, genres, and content types contribute to the platform's catalog.
 
 ---
 
-## 📈 Content Growth Over Time
+## 🎯 Objectives
 
-Netflix's catalog experienced minimal growth between **2008 and 2014**, with only a handful of titles being added each year. A sharp increase began in **2015**, followed by rapid expansion from **2016** onward. The platform reached its highest number of annual additions in **2019**, after which the number of new titles declined in **2020**.
+The analysis aims to answer questions such as:
 
-**Titles Added by Year**
-
-| Year | Titles Added |
-|------|-------------:|
-| 2008 | 1 |
-| 2009 | 2 |
-| 2010 | 1 |
-| 2011 | 13 |
-| 2012 | 4 |
-| 2013 | 6 |
-| 2014 | 19 |
-| 2015 | 56 |
-| 2016 | 262 |
-| 2017 | 910 |
-| 2018 | 1,290 |
-| 2019 | 1,546 |
-| 2020 | 147 |
-
-**Key Statistics**
-- 📌 Peak content additions: **1,546 titles (2019)**
-- 📌 Fastest growth period: **2017–2019**
-- 📌 Compound Annual Growth Rate (CAGR): **51.57%**
+- Which countries contribute the most movies and TV shows?
+- How has Netflix's content library grown over time?
+- Which years experienced the fastest growth in content additions?
+- Is Netflix focusing more on movies or TV shows?
+- How long does it take for content to appear on Netflix after its original release?
+- Which genres dominate the platform, and which are emerging?
+- What trends can be observed in Netflix's content acquisition and release strategy?
 
 ---
 
-## 📊 Year-over-Year Growth
+## 📂 Dataset
 
-The year-over-year analysis indicates that movie additions experienced their largest growth rate in **2011**, primarily because the previous year's additions were comparatively low.
+The project uses the **Netflix Movies and TV Shows** dataset, which contains information such as:
 
-**Key Statistics**
-- 📌 Highest YoY Movie Growth: **2011**
-- 📌 Growth Rate: **Approximately 1200%**
-
----
-
-## 🎬 Content Type Analysis
-
-Movies remain the dominant content type in Netflix's catalog. Although TV shows have also grown consistently over time, movies continue to increase at a slightly faster rate. However, the difference between the two content types is relatively small, indicating that TV shows are steadily becoming a larger part of Netflix's library.
-
-**Key Statistics**
-- 📌 Dominant content type: **Movies**
-- 📌 Fastest-growing content type: **TV Shows**
-- 📌 Movies still maintain a slight growth advantage overall.
+- Title
+- Content Type (Movie / TV Show)
+- Director
+- Cast
+- Country
+- Date Added
+- Release Year
+- Rating
+- Duration
+- Genre (Listed In)
+- Description
 
 ---
 
-## ⏳ Release Delay Analysis
+## 🛠️ Tools & Technologies
 
-Release delay represents the time difference between a title's original release year and the year it was added to Netflix. Across the entire dataset, titles are added an average of **4.63 years** after their original release.
-
-The average release delay increased between **2016 and 2019**, before declining through **2020**, indicating that more recently released titles began appearing on the platform.
-
-**Key Statistics**
-- 📌 Average release delay: **4.63 years**
-- 📌 Highest average delay: **India**
-- 📌 Highest cumulative delay: **USA**
-- 📌 Maximum delays observed: **2016–2019**
-- 📌 Delay decreased after **2019**
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **Jupyter Notebook**
 
 ---
 
-## 🎭 Genre Analysis
+## 📊 Analysis Performed
 
-**International Movies** represent the largest genre within the dataset, making them the most common category on Netflix. Trend analysis also shows that **Romantic Movies** have experienced increasing additions over time.
+The project includes:
 
-**Key Statistics**
-- 📌 Most common genre: **International Movies**
-- 📌 Emerging genre: **Romantic Movies**
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- Country-wise Content Analysis
+- Content Growth Analysis
+- Year-over-Year Growth Analysis
+- Movie vs TV Show Comparison
+- Release Delay Analysis
+- Genre Analysis
+- Data Visualization
 
 ---
 
-# 🔍 Summary
+## 🎯 Project Outcome
 
-The descriptive analysis highlights the major characteristics of Netflix's content library. The **United States** is the leading contributor of both movies and TV shows, while the platform experienced its most rapid expansion between **2017 and 2019**, achieving a **51.57% CAGR**. Movies remain the dominant content type, although TV shows continue to grow steadily. The average release delay is **4.63 years**, with **India** recording the highest average delay and the **United States** the highest cumulative delay. Finally, **International Movies** dominate the catalog, while **Romantic Movies** show an increasing presence over time.
+The analysis provides a comprehensive overview of Netflix's content library, highlighting distribution patterns, growth trends, release behavior, and genre evolution through statistical summaries and visualizations.
